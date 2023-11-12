@@ -6,6 +6,7 @@ const app = express();
 
 // listen for requests
 app.listen(3000);
+const dbURI = 'mongodb+srv://ReyhanMaddy:Allah7865@@teamtrack.offsab8.mongodb.net/?retryWrites=true&w=majority'
 
 // register view engine
 app.set('view engine', 'ejs');
