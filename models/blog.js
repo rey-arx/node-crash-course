@@ -19,5 +19,5 @@ const blogSchema = new Schema({
 //creating a model surrounds the schema and provides a interface
 //to communicate with the interface
 //typically models are given capital lettes
-const Blog = mongoose.model('Blogu',blogSchema)
+const Blog = mongoose.model('Blog',blogSchema)
 module.exports = Blog;
